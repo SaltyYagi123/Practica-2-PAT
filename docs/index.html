@@ -1,22 +1,70 @@
 <!doctype html>
-<html>
+<html lang = "es">
     <head>
         <title>Home - Telefónica</title>
         <meta name = "Description" content ="La compañía. Operamos en 12 países con una media de 113,182 empleados.">
     </head>
     <body>
-        <h1>Telefónica</h1>
-        <img src="https://marcas-logos.net/wp-content/uploads/2021/09/Telefonica-logo.png" alt="W3Schools.com" width="384" height="216">
-        <button>Inicio</button> <button>Sobre Nosotros</button>
-        <button>Servicios</button> <button>Compromiso</button>
-        <button>Sala de comunicación</button>
-        <button>Talento</button>
-        <p> Hello world</p>
-        <p> Te mandamos aceptar las cookies aunque no sepas de que coño van :)</p>
+        <header>
+            <h1>Telefónica</h1>
+            <img src="https://marcas-logos.net/wp-content/uploads/2021/09/Telefonica-logo.png" alt="Telefonica-logo" width="384" height="216">
+        </header>
+
+        <section>
+            <nav>
+              <ul>
+                <li><button>Inicio</button></li>
+                <li><button>Sobre Nosotros</button></li>
+                <li><button>Servicios</button></li>
+                <li><button>Compromiso</button></li>
+                <li><button>Sala de comunicación</button></li>
+                <li><button>Talento</button></li>
+              </ul>
+            </nav>
+            <!-- Tenemos estas estructuras predefinidas pero sin CSS aqui no hay quien lo organice-->
+            <article>
+              <h1>Sobre nostros</h1>
+              <p>En un momento en el que la tecnología está más presente que nunca en nuestras vidas, no podemos olvidar que las conexiones más importantes son las conexiones humanas. Porque en la sociedad de hoy en día, la calidad de vida de las personas depende en gran medida de esa conexión.</p>
+              <p>Y es aquí donde entramos nosotros. Ofreciendo conexiones que unan a las personas, en lugar de aislarlas; conexiones que inviten a las personas a ser ellas mismas, a expresarse, a compartir</p>
+            </article>
+        </section>
+          
+          <footer>
+            <h4>Apuntaté a nuestra newsletter</h4>
+
+            <form>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Apellido:</label><br>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <label for= "email">Correo Electronico:</label><br>
+                <input type="text" id="email" name="email">
+                <br><br>
+                <label>Seleccione que tipo de noticias desea recibir:</label><br>
+                <input type="checkbox" id="cloud" name="newsletter_type" value="cloud">
+                <label for="cloud">Cloud</label><br>
+                <input type="checkbox" id="cibersec" name="newsletter_type" value="cibersec">
+                <label for="cibersec">IoT (Internet of Things)</label><br>
+                <input type="checkbox" id="big_data" name="newsletter_type" value="big_data">
+                <label for="big_data">Big Data</label>
+                <br>
+                <input type="submit" value="Submit">
+                <br>
+                <br>
+            </form>
+            <p>© Telefónica S.A.</p>
+
+          </footer>
+          
+          </body>
+          </html>
     </body>
 </html>
 
-<!-- Compañía clave a analizar: 
+
+
+<!-- Compañía clave a analizar:  TELEFONICA 
     -->
 
 
@@ -32,9 +80,9 @@ El site constará de una pagina principal y 3 paginas interiores interconectadas
 
 Los documentos web que componen el site deben contener elementos diversos de HTML:
 
-- Títulos
-- Párrafos
+- Títulos check 
+- Párrafos check 
 - Tablas
-- Multimedia
-- Formularios Web
+- Multimedia check but barebones
+- Formularios Web check 
 -->
