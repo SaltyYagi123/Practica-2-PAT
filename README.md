@@ -13,4 +13,10 @@ Hola! Esta práctica consta de coger una empresa del Ibex 35 en este caso es Tel
 
 Aquella en las que tienen un botón al pulsar. El resto es navegación intuitiva. 
 
+## Interacciones Posibles 
+
+- Forms 
+- Links a la pagina web de Telefónica
+- Links a llamadas de telefono
+
 
